@@ -1,0 +1,58 @@
+@use '/src/styles/vars';
+
+.settings {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: #{vars.$gutter};
+  padding: #{vars.$gutter};
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+
+  &--closed {
+    background-color: rgba(0, 0, 0, 0.15);
+    transform: translateX(13rem);
+
+    .settings__toggle {
+      transform: rotate(0deg);
+    }
+  }
+
+  &__toggle {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: #{vars.$color-light};
+    border-radius: 50%;
+    color: #{vars.$color-alt2};
+    font-size: 1.3rem;
+    transform: rotate(45deg);
+  }
+
+  &__form {
+    width: 12rem;
+    margin-left: #{vars.$gutter};
+  }
+
+  &__submit {
+    display: block;
+    width: 100%;
+    background-color: #{vars.$color-alt2};
+    color: #{vars.$color-light};
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+  }
+}
+
+.field {
+  &__input {
+    display: block;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+  }
+}

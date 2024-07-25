@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+.chatroom {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: vars.$color-alt;
+}

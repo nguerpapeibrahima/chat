@@ -1,0 +1,33 @@
+@use 'src/styles/vars';
+
+.messages {
+  padding: vars.$gutter;
+
+  .message {
+    padding-bottom: 2 * vars.$gutter;
+
+    &__author {
+      color: vars.$color-dark;
+      padding-left: 2 * vars.$gutter;
+      padding-bottom: vars.$gutter;
+    }
+
+    &__content {
+      display: inline-block;
+      background-color: vars.$color-light;
+      color: vars.$color-main;
+      border-radius: 2rem;
+      padding: vars.$gutter 2 * vars.$gutter;
+    }
+
+    &--isMine {
+      text-align: right;
+
+      & .message__author {
+        padding-left: 0;
+        padding-right: 2 * vars.$gutter;
+
+      }
+    }
+  }
+}
