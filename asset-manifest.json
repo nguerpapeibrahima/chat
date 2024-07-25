@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nguerpapeibrahima/chat/static/css/main.b63b097b.css",
-    "main.js": "/nguerpapeibrahima/chat/static/js/main.99e5ead0.js",
+    "main.js": "/nguerpapeibrahima/chat/static/js/main.4ff2ed66.js",
     "index.html": "/nguerpapeibrahima/chat/index.html",
     "main.b63b097b.css.map": "/nguerpapeibrahima/chat/static/css/main.b63b097b.css.map",
-    "main.99e5ead0.js.map": "/nguerpapeibrahima/chat/static/js/main.99e5ead0.js.map"
+    "main.4ff2ed66.js.map": "/nguerpapeibrahima/chat/static/js/main.4ff2ed66.js.map"
   },
   "entrypoints": [
     "static/css/main.b63b097b.css",
-    "static/js/main.99e5ead0.js"
+    "static/js/main.4ff2ed66.js"
   ]
 }
