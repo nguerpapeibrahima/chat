@@ -1,21 +1,21 @@
-import axios from 'axios';
-import { LOGIN_FORM, connectUser } from '../actions';
+
+import { LOGIN_FORM,} from '../actions';
 
 const api = (store) => (next) => (action) => {
   switch (action.type) {
     case LOGIN_FORM: {
-      const { settings: {email, password }} = store.getState();
+      // const { settings: {email, password }} = store.getState();
       
-      axios.post('http://localhost:3001/login', {
-        email,
-        password,
-      })
-      .then((response) => {
-        store.dispatch(connectUser(response.data.pseudo));
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      // axios.post('http://localhost:3001/login', {
+      //   email,
+      //   password,
+      // })
+      // .then((response) => {
+      //   store.dispatch(connectUser(response.data.pseudo));
+      // })
+      // .catch((error) => {
+      //   console.log(error);
+      // });
       break;
     }
 
