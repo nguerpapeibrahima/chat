@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nguerpapeibrahima/chat/static/css/main.b63b097b.css",
+    "main.js": "/nguerpapeibrahima/chat/static/js/main.99e5ead0.js",
+    "index.html": "/nguerpapeibrahima/chat/index.html",
+    "main.b63b097b.css.map": "/nguerpapeibrahima/chat/static/css/main.b63b097b.css.map",
+    "main.99e5ead0.js.map": "/nguerpapeibrahima/chat/static/js/main.99e5ead0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63b097b.css",
+    "static/js/main.99e5ead0.js"
+  ]
+}
